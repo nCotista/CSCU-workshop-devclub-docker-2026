@@ -3,9 +3,9 @@ version: '3.8'
 services:
 
   frontend:
-    build: ./frontend
+    build: ./frontend 
     ports:
-      - "8080:80"
+      - "8080:80" #----> http://localhost:8080/
     depends_on:
       - backend
 
@@ -20,3 +20,5 @@ services:
     image: redis:alpine
     ports:
       - "6379:6379"
+
+#docker-compose up -d --build
