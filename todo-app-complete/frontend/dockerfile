@@ -1,2 +1,3 @@
 FROM nginx:alpine
-COPY index.html /usr/share/nginx/html/index.html
+# ใช้จุด (.) แปลว่าก๊อปปี้ทุกไฟล์ในโฟลเดอร์นี้ (ทั้ง html และ css) เข้าไปในกล่อง Nginx
+COPY . /usr/share/nginx/html/
