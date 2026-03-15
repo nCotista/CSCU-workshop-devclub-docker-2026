@@ -3,6 +3,7 @@ todo-app/
 ├── frontend/
 │   ├── Dockerfile
 │   └── index.html
+│   └── style.css
 └── backend/
     ├── Dockerfile
     ├── requirements.txt
