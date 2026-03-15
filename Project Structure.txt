@@ -1,0 +1,9 @@
+todo-app/
+├── docker-compose.yml
+├── frontend/
+│   ├── Dockerfile
+│   └── index.html
+└── backend/
+    ├── Dockerfile
+    ├── requirements.txt
+    └── main.py
